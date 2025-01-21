@@ -1,31 +1,20 @@
 ---
 
-title: "About David Florian"
+title: "About Aaron Xu"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Aaron is enthusiastic about Chemical Engineering, Chemistry, and Digital Fabrication. He is obsessed with research in Chemistry, and is looking to pursue a PhD in Organic or Computational Chemistry.
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+* Vanderbilt University (degrees expected 2026)
+  * BE Chemical Engineering
+  * BA Chemistry
+  * Minor in Digital Fabrication
 
-## Technical Skills
+## Research Experience
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
-
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
-
-## Press 
-
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+Aaron is actively conducting organic chemistry research in the [D.E.Kim Research Group](https://www.dekimgroup.com/research) at Vanderbilt University. He is primarily involved in investigating methods for the site-selective functionalization of carbohydrates.
 
 <img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
