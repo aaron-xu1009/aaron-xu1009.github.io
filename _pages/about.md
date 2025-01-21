@@ -11,7 +11,6 @@ Aaron is enthusiastic about Chemical Engineering, Chemistry, and Digital Fabrica
 * Vanderbilt University (degrees expected 2026)
   * BE Chemical Engineering
   * BA Chemistry
-  * Minor in Digital Fabrication
 
 ## Work Experience
 
