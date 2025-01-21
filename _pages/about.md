@@ -13,8 +13,22 @@ Aaron is enthusiastic about Chemical Engineering, Chemistry, and Digital Fabrica
   * BA Chemistry
   * Minor in Digital Fabrication
 
-## Research Experience
+## Work Experience
 
 Aaron is actively conducting organic chemistry research in the [D.E.Kim Research Group](https://www.dekimgroup.com/research) at Vanderbilt University. He is primarily involved in investigating methods for the site-selective functionalization of carbohydrates.
+
+## Technical Skills
+
+* Chemistry
+  * Nuclear Magnetic Resonance (NMR)
+  * IR Spectroscopy
+  * Gas Chromatography
+  * UV-Vis Spectrophotometry
+* Digital Fabrication
+  * Fused Filament Fabrication (FFF)
+
+## Awards
+
+* Vanderbilt University Dean's List (F22, S23, F23, S24, F24)
 
 <img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
