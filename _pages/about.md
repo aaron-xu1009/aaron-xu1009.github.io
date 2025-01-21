@@ -30,4 +30,4 @@ Aaron is actively conducting organic chemistry research in the [D.E.Kim Research
 
 * Dean's List (F22, S23, F23, S24, F24)
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/Aaron Headshot.jpg" alt="Aaron Xu" style="width:200px;"/>
