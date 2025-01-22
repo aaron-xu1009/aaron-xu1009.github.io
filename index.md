@@ -13,7 +13,7 @@ feature_row:
   - image_path: assets/img/Syringe_Pump_Rendering_2.png
     alt: "Syringe Pump"
     title: "Syringe Pump"
-    excerpt: "Custom-built for precise & accurate fluid delivery."
+    excerpt: "For the precise delivery of fluids."
   - image_path: assets/img/Lab_Hood.jpg
     alt: "Organic Chemistry Hood"
     title: "Chemistry Research"
