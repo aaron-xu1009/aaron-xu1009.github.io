@@ -12,12 +12,12 @@ excerpt: "Aaron is an undergraduate at Vanderbilt University pursuing double maj
 feature_row:
   - image_path: assets/img/Syringe_Pump_Rendering_2.png
     alt: "Syringe Pump"
-    title: "Custom-built Syringe Pump"
-    excerpt: "Built for fabricating aluminum and steel parts."
+    title: "Syringe Pump"
+    excerpt: "Custom-built for precise & accurate fluid delivery."
   - image_path: assets/img/Lab_Hood.jpg
     alt: "Organic Chemistry Hood"
-    title: "Organic Chemistry Research"
-    excerpt: "Aaron's Lab Hood"
+    title: "Chemistry Research"
+    excerpt: "Aaron's Lab Hood @ DEKim Group"
 ---
 
 {% include feature_row %}
