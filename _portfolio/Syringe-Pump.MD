@@ -1,6 +1,9 @@
 ---
 title: "Syringe Pump"
 excerpt: "Group-made syringe pump for the precise delivery of fluids"
+header:
+  image: /assets/img/Syringe_Pump_Rendering_2.png
+  teaser: /assets/img/Syringe_Pump_Rendering_2.png
 gallery:
   - image_path: assets/img/Syringe_Pump_Real_Life_1.jpg
   - image_path: assets/img/Syringe_Pump_Rendering_1.png
@@ -11,7 +14,7 @@ gallery:
 
 As an affordable alternative to expensive commercial programmable syringe pumps, this custom-built model combines 3D-printed and off-the-shelf parts into a fully functional syringe pump that is operable in laboratory settings for precise and gradual delivery of fluids. This model features an LED indicator light, an LCD screen that displays the flow rate, and a turn knob to adjust the flow rate. This syringe pump also features a slide-out drawer for easy access to internal components.
 
-<img src="/assets/img/Syringe_Pump_Rendering_2.png" alt="Syringe Pump" style="width:600px;"/>
+<img src="/assets/img/Syringe_Pump_Rendering_1.png" alt="Syringe Pump" style="width:600px;"/>
 
 # Operating Procedure
 
