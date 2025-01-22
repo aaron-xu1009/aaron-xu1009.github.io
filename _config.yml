@@ -84,7 +84,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+    - "https://www.instagram.com/aaron.xuzhongan"
 
 # Analytics
 analytics:
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/Aaron Headshot.jpg"
-  bio              : "A scientist and an engineer "
+  bio              : "Engineer, Scientist, Warsie, Trekkie"
   location         : "Nashville, TN"
   links:
     - label: "GitHub"
@@ -107,6 +107,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/aaron.xuzhongan"
+      - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/zhongan-xu-8276a227a"
 
 
 # Site Footer
