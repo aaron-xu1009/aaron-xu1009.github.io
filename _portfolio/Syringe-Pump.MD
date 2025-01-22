@@ -42,24 +42,28 @@ As an affordable alternative to expensive commercial programmable syringe pumps,
 
 | Part Name | Quantity |
 | --- | --- |
-| 9.5 mm Push Button | 1 |
-| Coupler | 1 |
+| Latching Push Button (9.5 mm)| 1 |
+| Flexible Coupling (1/4" x 8 mm) | 1 |
 | Flanged Ball Bearing | 1 |
 | Potentiometer with Knob | 1 |
 | LCD Screen | 1 |
-| Lead Screw | 1 |
+| Lead Screw (250 mm with 2 mm pitch) | 1 |
 | LED | 1 |
-| Linear Rod | 1 |
-| Linear Bearing | 1 |
+| Linear Rod (200 mm x 8 mm) | 1 |
+| Linear Bearing (8 mm bore diameter) | 1 |
 | Lock Collar - Lead Screw | 1 |
 | Lock Collar - Linear Rod | 1 |
-| M3 x 8 mm Thread Forming Screw | ? |
+| M3 x 8 mm Thread Forming Screw | 4 |
 | M3 x 10 mm Bolt | ? |
-| M5 T-Nut | ? |
 | M5 x 8 mm Bolt | ? |
-| NEMA 17 Motor | 1 |
-| Nut 8 mm x 8 mm | 1 |
+| T-Nut | 6 |
+| NEMA 17 Stepper Motor | 1 |
 | Aluminum Extrusion 20 mm x 40 mm x 350 mm | 1 |
+| Power Supply | 1 |
+| Arduino Uno | 1 |
+| Stepper Driver (Microcontroller) | 1 |
+| Small Breadboard | 1 |
+| Limit Switch | 1 |
 
 ## **Supplementary Files**
 
