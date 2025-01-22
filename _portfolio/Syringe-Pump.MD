@@ -1,24 +1,55 @@
 ---
 title: "Syringe Pump"
-excerpt: "Group Project"
-header:
-  image: /assets/img/LF3DP-Banner-2.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+excerpt: "Group-made syringe pump for the precise delivery of fluids"
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
+  - image_path: assets/img/Syringe_Pump_Real_Life_1.jpg
+  - image_path: assets/img/Syringe_Pump_Rendering_1.png
+  - image_path: assets/img/Syringe_Pump_Rendering_2.png
 ---
 
 # Features
-This is a test
 
+As an affordable alternative to expensive commercial programmable syringe pumps, this custom-built model combines 3D-printed and off-the-shelf parts into a fully functional syringe pump that is operable in laboratory settings for precise and gradual delivery of fluids. This model features an LED indicator light, an LCD screen that displays the flow rate, and a turn knob to adjust the flow rate. This syringe pump also features a slide-out drawer for easy access to internal components.
 
-* **Massive Print Area: 1140 x 1200 x 1100 mm.** With a build envelop just shy of 4 feet in all dimensions, the LF3DP is capable of printing furniture and other large objects.
-* **High Volumetric Output Extruder: 1 kg/hr - 450 C.** This printer come standard with a MDPH2 extruder by Massive Dimension, which can extrude at a rate of 1 kg/hr. Unlike typical filament extruders, the MDPH2 uses a screw to convey and liquify plastic pellets before the molten material is pushed out of a large nozzle (1 to 5 mm extrusion diameter). Please note: This printer can also be configured for other high flow rate extruders, such as the Typhoon and Pulsar by Dyze Design.
-* **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
+![Syringe Pump Rendering](assets/img/Syringe_Pump_Rendering_2.png)
+
+# Required Parts
+
+- **3D Printed Parts**
+
+| Part Name | Quantity |
+| --- | --- |
+| Enclosure Shell | 1 |
+| Enclosure Drawer | 1 |
+| Syringe Support | 1 |
+| Plunger Support | 1 |
+| Carriage | 1 |
+
+- **Off-the-shelf Parts**
+| Part Name | Quantity |
+| --- | --- |
+| 9.5 mm Push Button | 1 |
+| Coupler | 1 |
+| Flanged Ball Bearing | 1 |
+| Potentiometer with Knob | 1 |
+| LCD Screen | 1 |
+| Lead Screw | 1 |
+| LED | 1 |
+| Linear Rod | 1 |
+| Linear Bearing | 1 |
+| Lock Collar - Lead Screw | 1 |
+| Lock Collar - Linear Rod | 1 |
+| M3 x 8 mm Thread Forming Screw | ? |
+| M3 x 10 mm Bolt | ? |
+| M5 T-Nut | ? |
+| M5 x 8 mm Bolt | ? |
+| NEMA 17 Motor | 1 |
+| Nut 8 mm x 8 mm | 1 |
+| Aluminum Extrusion 20 mm x 40 mm x 350 mm | 1 |
+
+# Arduino Code
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e1faab3ee761fd268?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="Syringe Pump" %}
