@@ -54,8 +54,8 @@ As an affordable alternative to expensive commercial programmable syringe pumps,
 | Lock Collar - Lead Screw | 1 |
 | Lock Collar - Linear Rod | 1 |
 | M3 x 8 mm Thread Forming Screw | 4 |
-| M3 x 10 mm Bolt | ? |
-| M5 x 8 mm Bolt | ? |
+| M3 x 10 mm Bolt | 4 |
+| M5 x 8 mm Bolt | 6 |
 | T-Nut | 6 |
 | NEMA 17 Stepper Motor | 1 |
 | Aluminum Extrusion 20 mm x 40 mm x 350 mm | 1 |
