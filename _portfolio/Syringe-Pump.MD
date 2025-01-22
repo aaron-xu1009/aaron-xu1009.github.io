@@ -10,13 +10,13 @@ gallery:
   - image_path: assets/img/Syringe_Pump_Rendering_2.png
 ---
 
-# Features
+## **Features**
 
-As an affordable alternative to expensive commercial programmable syringe pumps, this custom-built model combines 3D-printed and off-the-shelf parts into a fully functional syringe pump that is operable in laboratory settings for precise and gradual delivery of fluids. This model features an LED indicator light, an LCD screen that displays the flow rate, and a turn knob to adjust the flow rate. This syringe pump also features a slide-out drawer for easy access to internal components.
+As an affordable alternative to expensive commercial programmable syringe pumps, this custom-built model by **Dimensional Divas** combines 3D-printed and off-the-shelf parts into a fully functional syringe pump that is operable in laboratory settings for precise and gradual delivery of fluids. This model features an LED indicator light, an LCD screen that displays the flow rate, and a turn knob to adjust the flow rate. This syringe pump also features a slide-out drawer for easy access to internal components.
 
 <img src="/assets/img/Syringe_Pump_Rendering_1.png" alt="Syringe Pump" style="width:600px;"/>
 
-# Operating Procedure
+## **Operating Procedure**
 
 1. Fill the syringe with liquid and insert into the holders. 
 2. Fit the 20 mL syringe into the protruding back slot or the 10 mL syringe into the front slot. 
@@ -26,7 +26,7 @@ As an affordable alternative to expensive commercial programmable syringe pumps,
 6. The LCD displays the flow rate and the time countdown. 
 7. The LED turns green when the device is running, turns yellow when the flow rate is 0 and there’s liquid remaining in the syringe, and turns red when the device reaches the end of its operation. 
 
-# Required Parts
+## **Required Parts**
 
 - **3D Printed Parts**
 
@@ -61,13 +61,13 @@ As an affordable alternative to expensive commercial programmable syringe pumps,
 | Nut 8 mm x 8 mm | 1 |
 | Aluminum Extrusion 20 mm x 40 mm x 350 mm | 1 |
 
-# Supplementary Files
+## **Supplementary Files**
 
 - [Python flow rate calculator](https://github.com/aaron-xu1009/aaron-xu1009.github.io/blob/main/_data/Flow_Rate_Calc.py)
 
 - [Arduino code](https://github.com/aaron-xu1009/aaron-xu1009.github.io/blob/main/_data/Arduino_Code.ino)
 
-# CAD Model
+## **CAD Model**
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e1faab3ee761fd268?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Syringe Pump" %}
