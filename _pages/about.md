@@ -4,11 +4,11 @@ title: "About Aaron Xu"
 
 ---
 
-## Education
-
 Aaron is enthusiastic about Chemical Engineering, Chemistry, and Digital Fabrication. He is obsessed with research in Chemistry, and is looking to pursue a PhD in Organic or Computational Chemistry.
 
-* Vanderbilt University (degrees expected 2026)
+## Education
+
+* Vanderbilt University (Class of 2026)
   * BE Chemical Engineering
   * BA Chemistry
 
@@ -25,6 +25,7 @@ Aaron is actively conducting organic chemistry research in the [D.E.Kim Research
   * UV-Vis Spectrophotometry
 * Digital Fabrication
   * Fused Filament Fabrication (FFF)
+  * Laser Cutting
 
 ## Awards
 
