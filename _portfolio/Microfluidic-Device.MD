@@ -68,6 +68,14 @@ The microfluidic device was tested through the separation of 2 sizes of polyethy
 - As mentioned above, the broad section is divided into 4 channels of equal width. The barriers between the channels are designed to be 0.400 mm wide, restricted by the aspect ratio limit. Thin barriers would reduce eddies and turbulent flow near the barriers, which are both detrimental to particle separation. Each of the four channel directs fluid to one of the four outlets without any narrowing or bends, which would eliminate any head loss due to complex geometries. The only difference between flow resistance through the four channels would be caused by wall roughness along different channel lengths, which is limited by the barb's outer diameter. In an ideal situation where the channel walls are perfectly smooth, each of the four outlets would receive an equal 25% of the total inlet flow, and the fluid would follow a perfectly laminar flow profile throughout the device.
 - Based on the results of the testing, which showed a slight preference of fluid flow through the shortest channel, changes can be implemented to this device by narrowing the shorter channels and widening the longer channels. Alternatively, if tubing can be connected to channel outlets without using barbs, the four outlet channels can be designed to be of equal length, so that the fluid would experience equal amounts of resistance through each channel, reducing the extent of uneven flow rates.
 
+## References
+1.	Yamada, M., Nakashima, M. & Seki, M. Pinched Flow Fractionation:  Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel. Anal. Chem. 76, 5465–5471 (2004).
+2.	Gaudin, R. & Barteneva, N. S. Sorting of small infectious virus particles by flow virometry reveals distinct infectivity profiles. Nat. Commun. 6, 6022 (2015).
+3.	O’Grady, B. J. et al. Rapid prototyping of cell culture microdevices using parylene-coated 3D prints. Lab. Chip 21, 4814–4822 (2021).
+4.	Venzac, B. et al. PDMS Curing Inhibition on 3D-Printed Molds: Why? Also, How to Avoid It? Anal. Chem. 93, 7180–7187 (2021).
+
+
+
 
 
 
