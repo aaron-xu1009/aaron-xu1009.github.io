@@ -15,7 +15,7 @@ gallery:
 
 - What is a microfluidic device?
 
-A microfluidic device is an innovative miniscule system designed to precisely manipulate small amount of fluids through microscale internal channels. By varying channel geometry, microfluidic devices can perform versatile tasks from mixing fluids and particle sorting to microscale reaction and detection. With its miniature size and precise control of fluid movement, microfluidic devices enable high material throughput with low reagent consumption, and has thus found its way into areas like biomedical & healthcare, biological research and environmental monitoring. This project aims to create a prototype microfluidic device that utilizes *pinched flow fractionation* to efficiently separate microparticles based on size.
+A microfluidic device is an innovative miniscule system designed to precisely manipulate small amount of fluids through microscale internal channels. By varying channel geometry, microfluidic devices can perform versatile tasks from mixing fluids and particle sorting to microscale reaction and detection. With its miniature size and precise control of fluid movement, microfluidic devices enable high material throughput with low reagent consumption, and has thus found its way into areas like biomedical & healthcare, biological research and environmental monitoring. This project aims to create a prototype microfluidic device that utilizes *pinched flow fractionation* to efficiently separate microparticles based on size. The microfluidic device in this project is specifically designed to separate smaller 0.125-0.150 mm polyethylene beads from larger 0.425-0.500 mm beads suspended in solution.
 
 - What is pinched flow fractionation?
 
@@ -24,6 +24,7 @@ Pinched flow fractionation (PFF) is a simplistic but efficient design proposed b
 - What is small particle sorting used for?
 
 Small particle sorting has certainly found its applications in biomedical and healthcare research. To investigate how infectivity profiles of viruses correlate with particle size, Gaudin and coworkers implemented a flow virometry assay and effectively separated Junin virus particles of various sizes while conserving their biological activities. The authors then analyzed the virions of different sizes and determined that larger virus particles are twice as infective as smaller virions. As demonstrated by this paper, size-based sorting is an efficient way for researchers to analyze particles individually to determine how certain properties of particles relate to size.
+An application of small particle sorting in environmental fields, as described by Gong and coworkers, involves the sorting of marine microplastics with a microfluidic device. Using the microfluidic chip, they were able to isolate microplastics as small as 50 microns, eliminating the need of labeling processes. Raman spectroscopy and machine learning models were then implemented to identify the trapped plastics, which would assist in determining the source of plastic pollutant. This is an excellent exhibit of the effectiveness of microfluidic devices in small particle sorting.
 
 ## **Instructions**
 
@@ -80,8 +81,9 @@ The microfluidic device was tested through the separation of 2 sizes of polyethy
 ## References
 1.	Yamada, M., Nakashima, M. & Seki, M. Pinched Flow Fractionation:  Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel. Anal. Chem. 76, 5465–5471 (2004).
 2.	Gaudin, R. & Barteneva, N. S. Sorting of small infectious virus particles by flow virometry reveals distinct infectivity profiles. Nat. Commun. 6, 6022 (2015).
-3.	O’Grady, B. J. et al. Rapid prototyping of cell culture microdevices using parylene-coated 3D prints. Lab. Chip 21, 4814–4822 (2021).
-4.	Venzac, B. et al. PDMS Curing Inhibition on 3D-Printed Molds: Why? Also, How to Avoid It? Anal. Chem. 93, 7180–7187 (2021).
+3.  Gong, L. et al. A microfluidic approach for label-free identification of small-sized microplastics in seawater. Sci. Rep. 13, 11011 (2023).
+4.	O’Grady, B. J. et al. Rapid prototyping of cell culture microdevices using parylene-coated 3D prints. Lab. Chip 21, 4814–4822 (2021).
+5.	Venzac, B. et al. PDMS Curing Inhibition on 3D-Printed Molds: Why? Also, How to Avoid It? Anal. Chem. 93, 7180–7187 (2021).
 
 
 
