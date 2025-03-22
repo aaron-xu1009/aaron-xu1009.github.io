@@ -1,9 +1,9 @@
 ---
 title: "Microfluidic Device"
-excerpt: "For the separation of microparticles"
+excerpt: "For the size-based separation of microparticles"
 header:
-  image: /assets/img/Syringe_Pump_Rendering_2.png
-  teaser: /assets/img/Syringe_Pump_Rendering_2.png
+  image: /assets/img/uFluidic_Rendering.png
+  teaser: /assets/img/uFluidic_Rendering.png
 gallery:
   - image_path: assets/img/Syringe_Pump_Real_Life_1.jpg
   - image_path: assets/img/Syringe_Pump_Rendering_1.png
