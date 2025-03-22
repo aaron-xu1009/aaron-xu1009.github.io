@@ -24,6 +24,7 @@ Pinched flow fractionation (PFF) is a simplistic but efficient design proposed b
 - What is small particle sorting used for?
 
 Small particle sorting has certainly found its applications in biomedical and healthcare research. To investigate how infectivity profiles of viruses correlate with particle size, Gaudin and coworkers implemented a flow virometry assay and effectively separated Junin virus particles of various sizes while conserving their biological activities. The authors then analyzed the virions of different sizes and determined that larger virus particles are twice as infective as smaller virions. As demonstrated by this paper, size-based sorting is an efficient way for researchers to analyze particles individually to determine how certain properties of particles relate to size.
+
 An application of small particle sorting in environmental fields, as described by Gong and coworkers, involves the sorting of marine microplastics with a microfluidic device. Using the microfluidic chip, they were able to isolate microplastics as small as 50 microns, eliminating the need of labeling processes. Raman spectroscopy and machine learning models were then implemented to identify the trapped plastics, which would assist in determining the source of plastic pollutant. This is an excellent exhibit of the effectiveness of microfluidic devices in small particle sorting.
 
 ## **Instructions**
@@ -36,7 +37,8 @@ The mold for this microfludic device was created in Fusion 360 (Autodesk). The m
 
 - Printing the Mold
 
-The mold for the microfluidic device was fabricated using a Form 4 SLA printer (Formlabs) with Clear v5 resin. As the bottom surface of the mold is where the casted device binds to the glass slide, the model was set up in Preform such that the bottom surface is parallel to the resin vat for it to be completely flat. The *z-*axis resolution was set to the minimum value of 0.025 mm in the Preform software, while the resin printer provided a minimum feature size along the *x-* or *y-* axes of 85 microns. The completed print, while still on the build plate, was washed in FormWash filled with isopropyl alcohol (IPA) for 5 minutes. The mold was then removed from the build plate and washed for another 5 minutes in fresh IPA in a stationary bath. The mold was then dried for 30 minutes by leaning it upside down, preventing IPA from pooling inside the device. Any debris present in the mold was dislodged by blowing compressed air onto the mold. The model was then cured under UV light for 60 seconds at room temperature. 
+The mold for the microfluidic device was fabricated using a Form 4 SLA printer (Formlabs) with Clear v5 resin. As the bottom surface of the mold is where the casted device binds to the glass slide, the model was set up in Preform such that the bottom surface is parallel to the resin vat for it to be printed completely flat. The *z-*axis resolution was set to the minimum value of 0.025 mm in the Preform software, while the resin printer provided a minimum feature size along the *x-* or *y-* axes of 85 microns. The completed print, while still on the build plate, was washed in FormWash filled with isopropyl alcohol (IPA) for 5 minutes. The mold was then removed from the build plate and washed for another 5 minutes in fresh IPA in a stationary bath. The mold was then dried for 30 minutes by leaning it upside down, preventing IPA from pooling inside the device. Any debris present in the mold was dislodged by blowing compressed air onto the mold. The model was then cured under UV light for 60 seconds at room temperature. 
+
 *Extreme care was taken at all post-processing steps to ensure that nothing touched the inner surface of the mold, as surface roughness could disrupt the watertight seal on the final device.*
 
 ![uFluidic Mold](/assets/img/uFluidic_Mold.jpg)
@@ -53,7 +55,7 @@ The device was casted with polydimethyl siloxane (PDMS) by pouring a 10:1 weight
 
 - Plasma Bonding to Glass Slide
 
-The cured PDMS device was removed from the resin mold, and bonded to a 25 mm by 75 mm glass slide using a PlasmaFlo PDC-FMG plasma cleaner (Harrick Plasma), giving the completed microfluidic device.
+The cured PDMS device was removed from the resin mold, and bonded to a 25 mm by 75 mm glass slide using a PlasmaFlo PDC-FMG plasma cleaner (Harrick Plasma), giving the final microfluidic device.
 
 ![uFluidic Device](/assets/img/uFluidic_Device.jpg)
 
@@ -84,13 +86,3 @@ The microfluidic device was tested through the separation of 2 sizes of polyethy
 3.  Gong, L. et al. A microfluidic approach for label-free identification of small-sized microplastics in seawater. Sci. Rep. 13, 11011 (2023).
 4.	O’Grady, B. J. et al. Rapid prototyping of cell culture microdevices using parylene-coated 3D prints. Lab. Chip 21, 4814–4822 (2021).
 5.	Venzac, B. et al. PDMS Curing Inhibition on 3D-Printed Molds: Why? Also, How to Avoid It? Anal. Chem. 93, 7180–7187 (2021).
-
-
-
-
-
-
-
-
-
-
