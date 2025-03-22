@@ -14,7 +14,7 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "For the precise delivery of fluids."
-  - image_path: assets/img/uFluidic_Rendering.png
+  - image_path: /assets/img/uFluidic_Rendering.png
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
     excerpt: "For the size-based separation of small particles."
