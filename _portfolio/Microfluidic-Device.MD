@@ -35,6 +35,10 @@ The mold for this microfludic device was created in Fusion 360 (Autodesk). The m
 
 ![uFluidic Model](/assets/img/uFluidic_Rendering.png)
 
+- Interactive CAD Model
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48604a9f682a8be85?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 - Printing the Mold
 
 The mold for the microfluidic device was fabricated using a Form 4 SLA printer (Formlabs) with Clear v5 resin. As the bottom surface of the mold is where the casted device binds to the glass slide, the model was set up in Preform such that the bottom surface is parallel to the resin vat for it to be printed completely flat. The *z-*axis resolution was set to the minimum value of 0.025 mm in the Preform software, while the resin printer provided a minimum feature size along the *x-* or *y-* axes of 85 microns. The completed print, while still on the build plate, was washed in FormWash filled with isopropyl alcohol (IPA) for 5 minutes. The mold was then removed from the build plate and washed for another 5 minutes in fresh IPA in a stationary bath. The mold was then dried for 30 minutes by leaning it upside down, preventing IPA from pooling inside the device. Any debris present in the mold was dislodged by blowing compressed air onto the mold. The model was then cured under UV light for 60 seconds at room temperature. 
