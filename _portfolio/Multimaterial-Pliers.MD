@@ -26,13 +26,13 @@ This project aims to leverage filament printers' ability of printing different t
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4be490e3ce2235985?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-- Design Rationale:
+- **Design Rationale**
 
 Since the targeted application for the pliers is to pick up small items such as through-hole resistors, I renounced the "traditional" plier design consisting of two rigid handle fragments and two claw fragments connected to a flexible spring component and instead aimed for a design that is much more simplistic but proven to be more effective. My miniscule design is much faster to print, and reduces the amount of hand action required to close the jaws, greatly increasing operating efficiency. The design essentially combines the gripping jaw and the handle piece, reducing the required parts from 5 to 3. Grooves are added to the jaw to lock the resistor in a tight grip, preventing resistors from falling out. The spring-open motion is enabled by the flexible spring between the two handles that is printed with TPU. The spring is assymmetrically designed so that the compressive motion is preferentially directed to the jaws. Though not shown in the CAD model, a grid structure that allows for compression of the spring component is generated in Superslicer (see print settings section). The spring is held between the handles using a press-fit mating mechanism. When assembled, the duck tails on the spring piece locks the three components in place.
 
 ![Pliers at work](/assets/img/Pliers_Working.gif)
 
-- Print Settings
+- **Print Settings**
 
 The spring component was printed using TPU 95A with a 0.6 mm nozzle. The grid compression structure was created using the monotonic infill pattern in Superslicer. Under the **Perimeters & Shell** tab, the *Horizontal Shell* top and bottom solid layers were set to 0, and the *Vertical Shell* perimeter was set to 4. Under the **Infill** tab, the infill pattern was set to monotonic, and infill density was set to 23%. Under the **Width & Flow** tab, the infill extrusion width was set to 1.2 mm.
 
@@ -40,7 +40,7 @@ The spring component was printed using TPU 95A with a 0.6 mm nozzle. The grid co
 
 The handles were printed using PLA with a 0.6 mm nozzle under default print settings.
 
-- Iterative process:
+- **Iterative Process**
 
 The first iteration of the multimaterial pliers was 7 mm thick. This proved to be too thin for gripping purposes, as the spring component frequently buckled when under stress. Also, the first iteration did not include grooves on the jaw portion, causing resistors to occasionally spring out of the jaws when too much force is applied. This propmted the inclusion of positioning grooves on subsequent iterations.
 
@@ -56,17 +56,17 @@ The final iteration reduced the clearance between the spring and handles to 0.05
 
 ![Final Iteration](/assets/img/Pliers_Real_Life.jpg)
 
-- Relevant Specifications:
+- **Relevant Specifications**
 
-Jaw Thickness: 10 mm
+  Jaw Thickness: 10 mm
 
-Effective Jaw Length: 10 mm
+  Effective Jaw Length: 10 mm
 
-Jaw Separation (resting): 3.8 mm
+  Jaw Separation (resting): 3.8 mm
 
-Jaw Separation (max.): 20 mm
+  Jaw Separation (max.): 20 mm
 
-Jaw Separation (max., alt. spring config.): 24 mm
+  Jaw Separation (max., alt. spring config.): 24 mm
 
 ![Alternative Spring Configuration](/assets/img/Pliers_Alt_Config.jpg)
 
