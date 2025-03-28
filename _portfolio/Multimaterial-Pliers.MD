@@ -32,9 +32,29 @@ Since the targeted application for the pliers is to pick up small items such as 
 
 ![Pliers at work](/assets/img/Pliers_Working.gif)
 
+- Print Settings
+
+The spring component was printed using TPU 95A with a 0.6 mm nozzle. The grid compression structure was created using the monotonic infill pattern in Superslicer. Under the **Perimeters & Shell** tab, the *Horizontal Shell* top and bottom solid layers were set to 0, and the *Vertical Shell* perimeter was set to 4. Under the **Infill** tab, the infill pattern was set to monotonic, and infill density was set to 23%. Under the **Width & Flow** tab, the infill extrusion width was set to 1.2 mm.
+
+![Pliers at work](/assets/img/Pliers_Spring_Sliced.png)
+
+The handles were printed using PLA with a 0.6 mm nozzle under default print settings.
+
 - Iterative process:
 
-The first iteration of the multimaterial pliers was 7 mm thick. This proved to be too thin for gripping purposes, as the spring component frequently buckled when under stress. Also, the first iteration did not include grooves on the jaw portion, causing resistors to occasionally spring out of the jaws when too much force is applied. This propmted the inclusion of positioning grooves on subsequent iterations. For the second iteration, the thickness of the pliers (handles and spring) was increased to 10 mm. This thickness proved to be sufficient. However, the clearance between the spring and handles was set to 0.1 mm, causing the fit to far too loose. Also, the spring's verticle perimeter thickness of 3 layers resulted in more flex than necessary. The final iteration reduced the clearance between the spring and handles to 0.05 mm, resulting in a perfect press-fit without wobble. The verticle perimeter thickness of the spring was also increased to 4 layers, limiting the amount of flex to a suitable amount.
+The first iteration of the multimaterial pliers was 7 mm thick. This proved to be too thin for gripping purposes, as the spring component frequently buckled when under stress. Also, the first iteration did not include grooves on the jaw portion, causing resistors to occasionally spring out of the jaws when too much force is applied. This propmted the inclusion of positioning grooves on subsequent iterations.
+
+![Iteration 1](/assets/img/Pliers_Iteration1.jpg)
+
+![Side Comparison](/assets/img/Pliers_Side.jpg)
+
+For the second iteration, the thickness of the pliers (handles and spring) was increased to 10 mm. This thickness proved to be sufficient. However, the clearance between the spring and handles was set to 0.1 mm, causing the fit to far too loose. Also, the spring's verticle perimeter thickness of 3 layers resulted in more flex than necessary.
+
+![Iteration 2](/assets/img/Pliers_Iteration2.jpg)
+
+The final iteration reduced the clearance between the spring and handles to 0.05 mm, resulting in a perfect press-fit without wobble. The verticle perimeter thickness of the spring was also increased to 4 layers, limiting the amount of flex to a suitable amount.
+
+![Final Iteration](/assets/img/Pliers_Real_Life.jpg)
 
 - Relevant Specifications:
 
@@ -47,5 +67,7 @@ Jaw Separation (resting): 3.8 mm
 Jaw Separation (max.): 20 mm
 
 Jaw Separation (max., alt. spring config.): 24 mm
+
+![Alternative Spring Configuration](/assets/img/Pliers_Alt_Config.jpg)
 
 {% include gallery caption="Multimaterial Pliers" %}
