@@ -2,13 +2,16 @@
 title: "Multimaterial Pliers"
 excerpt: "Print-in-place pliers for picking up resistors"
 header:
-  image: /assets/img/uFluidic_Rendering.png
-  teaser: /assets/img/uFluidic_Rendering.png
+  image: /assets/img/Pliers_Header.jpg
+  teaser: /assets/img/Pliers_Real_Life.jpg
 gallery:
-  - image_path: assets/img/uFluidic_Rendering.png
-  - image_path: assets/img/uFluidic_Mold.jpg
-  - image_path: assets/img/uFluidic_Demolding.jpg
-  - image_path: assets/img/uFluidic_Device.jpg
+  - image_path: assets/img/Pliers_Real_Life.jpg
+  - image_path: assets/img/Pliers_Credit.jpg
+  - image_path: assets/img/Pliers_Header.jpg
+  - image_path: assets/img/Pliers_Iteration1.jpg
+  - image_path: assets/img/Pliers_Side.jpg
+  - image_path: assets/img/Pliers_Iteration2.jpg
+  - image_path: assets/img/Pliers_Alt_Config.jpg
 ---
 
 ## **Introduction**
