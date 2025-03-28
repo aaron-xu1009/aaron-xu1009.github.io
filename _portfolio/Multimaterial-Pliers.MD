@@ -32,9 +32,13 @@ The first iteration of the multimaterial pliers was 7 mm thick. This proved to b
 - Relevant Specifications:
 
 Jaw Thickness: 10 mm
+
 Effective Jaw Length: 10 mm
+
 Jaw Separation (resting): 3.8 mm
+
 Jaw Separation (max.): 20 mm
+
 Jaw Separation (max., alt. spring config.): 24 mm
 
 
