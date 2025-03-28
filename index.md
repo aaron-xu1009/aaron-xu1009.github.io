@@ -18,6 +18,10 @@ feature_row:
     alt: "Microfluidic Device"
     title: "Microfluidic Device"
     excerpt: "For the size-based separation of small particles."
+  - image_path: /assets/img/Pliers_Credit.jpg
+    alt: "Multimaterial Pliers"
+    title: "Multimaterial Pliers"
+    excerpt: "Print-in-place pliers for picking up small objects."
   - image_path: assets/img/Lab_Hood.jpg
     alt: "Organic Chemistry Hood"
     title: "Chemistry Research"
