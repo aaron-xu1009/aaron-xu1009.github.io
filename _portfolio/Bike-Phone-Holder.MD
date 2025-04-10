@@ -1,6 +1,6 @@
 ---
-title: "Microfluidic Device"
-excerpt: "For the size-based separation of microparticles"
+title: "Bike Phone Holder"
+excerpt: "Designed using top-down modeling"
 header:
   image: /assets/img/uFluidic_Rendering.png
   teaser: /assets/img/uFluidic_Rendering.png
@@ -13,9 +13,9 @@ gallery:
 
 ## **Introduction**
 
-- What is a microfluidic device?
+- Top-Down Modeling
 
-A microfluidic device is an innovative miniscule system designed to precisely manipulate small amount of fluids through microscale internal channels. By varying channel geometry, microfluidic devices can perform versatile tasks from mixing fluids and particle sorting to microscale reaction and detection. With its miniature size and precise control of fluid movement, microfluidic devices enable high material throughput with low reagent consumption, and has thus found its way into areas like biomedical & healthcare, biological research and environmental monitoring. This project aims to create a prototype microfluidic device that utilizes *pinched flow fractionation* to efficiently separate microparticles based on size. The microfluidic device in this project is specifically designed to separate smaller 0.125-0.150 mm polyethylene beads from larger 0.425-0.500 mm beads suspended in solution.
+This project utilizes a top-down modeling approach to design a rotating phone holder for bike or scooter handle bars. Top-down modeling involves designing multiple components within a single assembly file, as opposed to a more traditional bottom-up approach, where the components ae generated individually and then brought together into a final assembly. Top-down modeling allows new components to easily reference existing dimensions and profile shapes, streamlining the design process. For designing this bike phone holder, the top-down approach was implemented as it greatly simplifies the iteration process, especially when fine-tuning the detent mechanism. Top-down modeling also ensures the consistency of the model when updating component geometries, as all components are designed in relation to each other.
 
 - What is pinched flow fractionation?
 
