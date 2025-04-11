@@ -2,13 +2,18 @@
 title: "Bike Phone Holder"
 excerpt: "Designed with top-down modeling"
 header:
-  image: /assets/img/uFluidic_Rendering.png
-  teaser: /assets/img/uFluidic_Rendering.png
+  image: /assets/img/Bike_Phone_Holder_Real_Life.jpg
+  teaser: /assets/img/Bike_Phone_Holder_Render_Phone_Front.png
 gallery:
-  - image_path: assets/img/uFluidic_Rendering.png
-  - image_path: assets/img/uFluidic_Mold.jpg
-  - image_path: assets/img/uFluidic_Demolding.jpg
-  - image_path: assets/img/uFluidic_Device.jpg
+  - image_path: assets/img/Bike_Phone_Holder_Back_Clamp.png
+  - image_path: assets/img/Bike_Phone_Holder_Front_Clamp.png
+  - image_path: assets/img/Bike_Phone_Holder_Outer_Detent.png
+  - image_path: assets/img/Bike_Phone_Holder_TPU.png
+  - image_path: assets/img/Bike_Phone_Holder_Detent_Cross_Section.png
+  - image_path: assets/img/Bike_Phone_Holder_Render_Front.png
+  - image_path: assets/img/Bike_Phone_Holder_Render_Phone_Front.png
+  - image_path: assets/img/Bike_Phone_Holder_Render_Phone_Back.png
+  - image_path: assets/img/Bike_Phone_Holder_Real_Life.png
 ---
 
 ## Top-Down Modeling
@@ -22,6 +27,10 @@ Like many of my previous projects, this phone holder pursues a minimalistic desi
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f8faed79654f4d8b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 The rotation feature of the phone holder is enabled by a ball detent mechanism. The mechanism involves a steel ball bearing (8 mm diameter) that rests on a compression spring (20 mm length) mounted in the inner detent partner piece. The outer detent partner contains 8 semi-cylindrical grooves for the ball bearing to rest in. The spring is compressed when the outer detent partner is in resting position, and compressed even more when the outer detent partner is rotated. This provides sufficient resistance to rotation, and enough force to lock the outer detent partner in portrait or landscape mode. In the assembled phone holder, this detent mechanism demonstrated outstanding performance, being able to lock the phone in either portrait or landscape mode with almost no wobble, generates a satisfying clicking sound when rotating, and requires just the right amount of force to rotate, which was accomplished by choosing an appropriate groove depth in the outer detent partner.
+
+![Detent Cross Section](/assets/img/Bike_Phone_Holder_Detent_Cross_Section.png)
+
+![Rotating Phone Holder](/assets/img/Bike_Phone_Holder_Motion.gif)
 
 The front and back clamps were powder printed using SLS with PA 12 Nylon powder. Powder printing generates mechanistically stronger and more isotropic parts compared to filament printing, and was applied to print the two clamp components that would need to resist structural deformation when clamping down on the handlebar. The structure of the front clamp/inner detent partner also rendered it extremely hard to set up for filament printing, making the support-free powder printing the best available option. The outer detent partner was filament printed with PLA, resulting in a lightweight model. Since this component needed to be iterated with various groove depths, filament printing was the fastest prototyping option. Layer delamination typically associated with filament printing was not a concern regarding the outer detent component, as rotation was the only motion involved. To account for the filament printing process and to generate enough clearance for rotation, I introduced a 0.45 mm offset between the inner and outer detent, which turned out perfect in the final assembly. The phone holder component was filament printed with TPU 95A. Parts printed with TPU have a rubbery texture that generate a high amount of friction, making it suitable for holding the phone and preventing it from slipping out of the phone holder. While modeling the phone holder component, the thickness of the phone was offset by 0.7 mm to account for 3D printing inaccuracies and the thickness of the screen protector.
 
