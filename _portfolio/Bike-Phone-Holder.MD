@@ -2,7 +2,7 @@
 title: "Bike Phone Holder"
 excerpt: "Designed with top-down modeling"
 header:
-  image: /assets/img/Bike_Phone_Holder_Real_Life.jpg
+  image: /assets/img/Bike_Phone_Holder_Render_Phone_Front.png
   teaser: /assets/img/Bike_Phone_Holder_Render_Phone_Front.png
 gallery:
   - image_path: assets/img/Bike_Phone_Holder_Back_Clamp.png
@@ -13,7 +13,8 @@ gallery:
   - image_path: assets/img/Bike_Phone_Holder_Render_Front.png
   - image_path: assets/img/Bike_Phone_Holder_Render_Phone_Front.png
   - image_path: assets/img/Bike_Phone_Holder_Render_Phone_Back.png
-  - image_path: assets/img/Bike_Phone_Holder_Real_Life.png
+  - image_path: assets/img/Bike_Phone_Holder_Real_Life.jpg
+  - image_path: assets/img/Bike_Phone_Holder_Real_Life_2.jpg
 ---
 
 ## Top-Down Modeling
@@ -34,7 +35,7 @@ The rotation feature of the phone holder is enabled by a ball detent mechanism. 
 
 The front and back clamps were powder printed using SLS with PA 12 Nylon powder. Powder printing generates mechanistically stronger and more isotropic parts compared to filament printing, and was applied to print the two clamp components that would need to resist structural deformation when clamping down on the handlebar. The structure of the front clamp/inner detent partner also rendered it extremely hard to set up for filament printing, making the support-free powder printing the best available option. The outer detent partner was filament printed with PLA, resulting in a lightweight model. Since this component needed to be iterated with various groove depths, filament printing was the fastest prototyping option. Layer delamination typically associated with filament printing was not a concern regarding the outer detent component, as rotation was the only motion involved. To account for the filament printing process and to generate enough clearance for rotation, I introduced a 0.45 mm offset between the inner and outer detent, which turned out perfect in the final assembly. The phone holder component was filament printed with TPU 95A. Parts printed with TPU have a rubbery texture that generate a high amount of friction, making it suitable for holding the phone and preventing it from slipping out of the phone holder. While modeling the phone holder component, the thickness of the phone was offset by 0.7 mm to account for 3D printing inaccuracies and the thickness of the screen protector.
 
-![Phone Holder Real Life](/assets/img/Bike_Phone_Holder_Real_Life_2.jpg)
+![Phone Holder Real Life](/assets/img/Bike_Phone_Holder_Real_Life.jpg)
 
 ## Assembly Instructions
 
