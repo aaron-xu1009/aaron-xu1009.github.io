@@ -2,12 +2,11 @@
 title: "Headphone Stand"
 excerpt: "Generative design headphone stand"
 header:
-  image: /assets/img/Syringe_Pump_Rendering_2.png
-  teaser: /assets/img/Syringe_Pump_Rendering_2.png
+  image: /assets/img/Headphone_Stand_GD_Rendering.png
+  teaser: /assets/img/Headphone_Stand_GD_Rendering.png
 gallery:
-  - image_path: assets/img/Syringe_Pump_Real_Life_1.jpg
-  - image_path: assets/img/Syringe_Pump_Rendering_1.png
-  - image_path: assets/img/Syringe_Pump_Rendering_2.png
+  - image_path: assets/img/GD_Outcome_1.png
+  - image_path: assets/img/GD_Outcome_2.png
 ---
 
 ## Overview
