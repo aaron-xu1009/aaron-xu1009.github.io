@@ -40,9 +40,9 @@ A notable limitation I encountered is that generative design works best when giv
 
 Generative design would be useful in aerospace industries, where weight reduction is critical to saving fuel or increasing effective payload. Though generative design parts and metal SLS printing are not yet the most reliable option for aerospace applications, generative design outcomes certainly provide thoughtful insights on where to reduce unnecessary mass. In addition, dental or prosthetic industries would also benefit from generative design, since the preserve and obstacle geometries could be set to suit specific patients, providing custom medical solutions to patients. However, generative design may fall short in industries where manufacturing methods are limited. The best generative design might be for 5 axis CNC while your company possesses only injection molding, for example. The generative design outcome might have to be heavily modified to conform to existing manufacturing methods. What's more, in aviation or automotive industries, non-traditional designs like the organic structures from generative design might have to undergo extensive testing before being put into mass production and into consumer products. The upfront cost might be hard to justify, and sticking with traditional designs would be the better option.
 
-## Load Cases
+## Table of Modeled Loads
 
-| Force | Magnitude | Location | Rationale |
+| Load Case | Magnitude | Location | Rationale |
 | --- | --- | --- | --- |
 | Weight | 5 N | Center of headband support | Weight of headphones |
 | Shear | 2 N | Headband support plate | Pulling headphones off the stand |
