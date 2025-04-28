@@ -1,6 +1,6 @@
 ---
 title: "Headphone Stand"
-excerpt: "Generative designed headphone stand"
+excerpt: "Generative design headphone stand"
 header:
   image: /assets/img/Syringe_Pump_Rendering_2.png
   teaser: /assets/img/Syringe_Pump_Rendering_2.png
@@ -12,7 +12,7 @@ gallery:
 
 ## Overview
 
-The generative designed part for this project is a Mandalorian (from Star Wars) themed headphone stand. When shopping for headphone stands, an feature I frequently observe on commercial headphone stands is a supporting rod that protrudes from the center of the stand's base. At resting position, headphones' earcups The inconvenient location of this rod necessitate the earcups of the headphones to be pried open when placing the headphones on the stand, which makes the single-hand operation of placing the headphones on the stand an inconvenient task. Consequently, since the earcups clamp down on the supporting rod, taking the headphones off the stand with a single hand is an equally challenging task, as the stand would move along with the headphones due to friction. The headphone stand designed in this project aims to overcome this limitation, making it easy to place and remove headphones from the stand with a single hand, while incorporating symbolic elements of Mandalorian culture to make the stand a Star Wars fan favorite.
+The generative designed part for this project is a Mandalorian (from Star Wars) themed headphone stand. When shopping for headphone stands, an feature I frequently observe on commercial headphone stands is a supporting rod that protrudes *from the center* of the stand's base. At resting position, headphones' earcups The inconvenient location of this rod necessitate the earcups of the headphones to be pried open when placing the headphones on the stand, which makes the single-hand operation of placing the headphones on the stand an inconvenient task. Consequently, since the earcups clamp down on the supporting rod, taking the headphones off the stand with a single hand is an equally challenging task, as the stand would move along with the headphones due to friction. The headphone stand designed in this project aims to overcome this limitation, making it easy to place and remove headphones from the stand with a single hand, while incorporating symbolic elements of Mandalorian culture to make the stand a Star Wars fan favorite.
 
 ## Preserve and Obstacle Geometries
 
@@ -34,19 +34,22 @@ The load case scenarios can be optimized by testing the headphone's stability li
 
 ## Critique of Generative Design
 
+I think generative design is especially useful in the starting stages of the prototyping process. Generative models are capable of coming up with innovative designs that either minimizes mass or maximizes stiffness, and results in structures that are unique and may be hard for human engineers to come up with. The generative outcomes would be a good starting point for designing future iterations, as generative design provides dozens of *viable* outcomes to base future designs upon.
 
+A notable limitation I encountered is that generative design works best when given a hint structure especially when a large obstacle geometry is present, despite there being line of sight between preserve geometries. A starting shape would need to connect all preserve geometries, which is sometimes hard to model, and it would constrain the model to a great extent. In my first generative design attempts, the generative model would attempt to enclose the headphone obstacle in a large structure, wrapping around the earcup obstacle from both sides, and then converged into a box-like structure that conforms to the outer silhouette of the headphone obstacle. To overcome this issue, I implemented a tiny preserve geometry (a very small cube) where I would want my supporting structure to be located. This preserve geometry is small enough that it does not impede with the generative design process, but provided enough of a hint that the model would know that a structure that wraps around only one side of the earcup obstacle (where the tiny preserve geometry is) would be sufficient to satisfy the load case. Another limitation I encountered that had less of an impact on the project is the asymmetry of certain generative design outcomes. In certain manufacturing directions, the resulting model would be weirdly asymmetric, which was not aesthetically appealing. This is likely the result of the generative model taking the manufacturing process into account.
+
+Generative design would be useful in aerospace industries, where weight reduction is critical to saving fuel or increasing effective payload. Though generative design parts and metal SLS printing are not yet the most reliable option for aerospace applications, generative design outcomes certainly provide thoughtful insights on where to reduce unnecessary mass. In addition, dental or prosthetic industries would also benefit from generative design, since the preserve and obstacle geometries could be set to suit specific patients, providing custom medical solutions to patients. However, generative design may fall short in industries where manufacturing methods are limited. The best generative design might be for 5 axis CNC while your company possesses only injection molding, for example. The generative design outcome might have to be heavily modified to conform to existing manufacturing methods. What's more, in aviation or automotive industries, non-traditional designs like the organic structures from generative design might have to undergo extensive testing before being put into mass production and into consumer products. The upfront cost might be hard to justify, and sticking with traditional designs would be the better option.
 
 ## Load Cases
 
-| Part Name | Quantity |
-| --- | --- |
-| Enclosure Shell | 1 |
-| Enclosure Drawer | 1 |
-| Syringe Support | 1 |
-| Plunger Support | 1 |
-| Carriage | 1 |
+| Force | Magnitude | Location | Rationale |
+| --- | --- | --- | --- |
+| Weight | 5 N | Center of headband support | Weight of headphones |
+| Shear | 2 N | Headband support plate | Pulling headphones off the stand |
+| Moment (left/right) | 20 N mm | Headband support plate | Placing headphones off-center |
+| Moment (front/back) | 50 N mm | Headband support plate | Placing headphones off-center |
 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a45f5a1580dbc9691b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Syringe Pump" %}
+{% include gallery caption="Generative Design" %}
