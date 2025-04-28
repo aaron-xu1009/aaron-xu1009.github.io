@@ -10,11 +10,13 @@ gallery:
   - image_path: assets/img/Syringe_Pump_Rendering_2.png
 ---
 
-## **Features**
+## Overview
 
-As an affordable alternative to expensive commercial programmable syringe pumps, this custom-built model by **Dimensional Divas** combines 3D-printed and off-the-shelf parts into a fully functional syringe pump that is operable in laboratory settings for precise and gradual delivery of fluids. This model features an LED indicator light, an LCD screen that displays the flow rate, and a turn knob to adjust the flow rate. This syringe pump also features a slide-out drawer for easy access to internal components.
+The generative designed part for this project is a Mandalorian (from Star Wars) themed headphone stand. When shopping for headphone stands, an feature I frequently observe on commercial headphone stands is a supporting rod that protrudes from the center of the stand's base. At resting position, headphones' earcups The inconvenient location of this rod necessitate the earcups of the headphones to be pried open when placing the headphones on the stand, which makes the single-hand operation of placing the headphones on the stand an inconvenient task. Consequently, since the earcups clamp down on the supporting rod, taking the headphones off the stand with a single hand is an equally challenging task, as the stand would move along with the headphones due to friction. The headphone stand designed in this project aims to overcome this limitation, making it easy to place and remove headphones from the stand with a single hand, while incorporating symbolic elements of Mandalorian culture to make the stand a Star Wars fan favorite.
 
-<img src="/assets/img/Syringe_Pump_Rendering_1.png" alt="Syringe Pump" style="width:600px;"/>
+## Preserve and Obstacle Geometries
+
+There are four preserve geometries in the generative design model. The headband support is a curved plate on which the headband of the headphones will rest. The curvature of the support plate is less that that of the headband, allowing the support plate to cause deformations in the foam headband, providing friction that prevents the headphones from wobbling on the stand. The Mandalorian Din Djarin's famous phrase "This is the way" is debossed on the support plate, adding a touch to the Mandalorian theme. 
 
 ## **Operating Procedure**
 
