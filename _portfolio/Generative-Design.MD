@@ -13,6 +13,8 @@ gallery:
 
 The generative designed part for this project is a Mandalorian (from Star Wars) themed headphone stand. When shopping for headphone stands, an feature I frequently observe on commercial headphone stands is a supporting rod that protrudes *from the center* of the stand's base. At resting position, headphones' earcups The inconvenient location of this rod necessitate the earcups of the headphones to be pried open when placing the headphones on the stand, which makes the single-hand operation of placing the headphones on the stand an inconvenient task. Consequently, since the earcups clamp down on the supporting rod, taking the headphones off the stand with a single hand is an equally challenging task, as the stand would move along with the headphones due to friction. The headphone stand designed in this project aims to overcome this limitation, making it easy to place and remove headphones from the stand with a single hand, while incorporating symbolic elements of Mandalorian culture to make the stand a Star Wars fan favorite.
 
+![Headphone_Stand_Rendering](/assets/img/Headphone_Stand_GD_Rendering.png)
+
 ## Preserve and Obstacle Geometries
 
 There are three preserve geometries in the generative design model.
